@@ -137,7 +137,6 @@ header .mobile {
 	background-color: #9dc20b;
   color: white;
   width: 35.5rem;
-
 }
 
 #sign-up-cta .content {
@@ -226,7 +225,6 @@ header .mobile {
   justify-content: space-between;
   padding: 4rem 5%;
   background-color: #f3f3f3;
-
 }
 
 .feature {
@@ -236,24 +234,27 @@ header .mobile {
   background-color: white;
 
 }
-
+#features-section .feature {
+  width: 50%;
+}
 .feature .image-container {
-  padding: 2rem;
+  width: 90%;
   height: 65%;
+  padding: 2rem;
   margin: auto;
-
 }
-
 .image-container img {
-	margin: auto;
-	width: 90%;
-	height: auto;
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
 
-.center.content {
-	height: 11.6875rem;
+#features-section .content {
+  padding: 2rem;
+  height:11.6875rem;
 }
-h2 {
+
+.feature h2 {
   font-size: 2.25rem;
   font-face: Roboto-Bold;
   color: #4a4a4a;
@@ -318,6 +319,7 @@ h2 {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
@@ -358,11 +360,11 @@ h2 {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -371,7 +373,7 @@ h2 {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
