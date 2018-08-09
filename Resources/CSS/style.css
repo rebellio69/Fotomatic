@@ -135,39 +135,44 @@ header .mobile {
 	border: solid 1px #979797;
 	border-radius: 4px;
 	background-color: #9dc20b;
-	
+  color: white;
+  width: 35.5rem;
+
 }
 
 #sign-up-cta .content {
-
-	padding: 2rem 5rem 3.5rem 5rem;
 	font-face: "Roboto", sans-serif;
-	font-size: 1.25rem;
+  font-size: 1.25rem;
 	line-height: 1.4;
 	color: white;
+  margin: 2rem 4.9375rem 3.5rem 4.9375rem;
+  height: auto;
 }
 
 #sign-up-cta h1 {
 	font-size: 3.125rem;
 	font-face: Rubik-Regular;
 	padding-bottom: .75rem;
-	
 }
 
 #sign-up-cta h2 {
 	font-size: 2.25rem;
 	font-family: "Damion", cursive;
+  color: white;
 }
 
 #sign-up-cta span strong {
 	font-weight: bold;
 }
 
-.email.button {
-	width: 25.5rem;
-	height: 4rem;
-	
+#sign-up-cta .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  margin-top: 1.625rem;
 }
+
 @media only screen and (max-width: 760px) {
 	#sign-up-section {
 		align-items: center;
@@ -221,7 +226,7 @@ header .mobile {
   justify-content: space-between;
   padding: 4rem 5%;
   background-color: #f3f3f3;
- 
+
 }
 
 .feature {
@@ -229,14 +234,14 @@ header .mobile {
   margin: 0 1.25rem;
   padding: 0;
   background-color: white;
- 
+
 }
 
 .feature .image-container {
   padding: 2rem;
   height: 65%;
   margin: auto;
- 
+
 }
 
 .image-container img {
