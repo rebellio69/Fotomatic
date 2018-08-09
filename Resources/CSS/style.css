@@ -306,11 +306,26 @@ li .button {
 @media only screen and (max-width: 450px) {
   #features-section {
     flex-flow: column;
+    margin: 0;
     padding: 0;
+    border: 2px solid black;
   }
   .feature {
-    margin: 0;
     padding: 1.25rem 1rem 0 1rem;
+    border: 2px solid black;
+  }
+  #features-section .feature {
+    width: 85%;
+    border: 2px solid black;
+  }
+  #features-section .content {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+  }
+  .feature .image-container {
+    width: 100%;
+    padding: 0;
   }
 }
 
@@ -320,25 +335,21 @@ li .button {
   padding: 4rem 0;
   background-color: #4a4a4a;
 }
-
 #filters-section .content {
   padding: 0 .625rem;
   margin-bottom: 5rem;
 }
-
 #filters-section .content h2 {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
 }
-
 #filters-section .content h3 {
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 300;
   color: white;
 }
-
 #filters-section .images-container {
   display: flex;
   max-width: 100%;
@@ -368,6 +379,7 @@ li .button {
 }
 
 @media only screen and (max-width: 450px) {
+  }
   #filters-section .extra {
     display: none;
   }
@@ -402,9 +414,6 @@ li .button {
   #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
-  }
-  #quotes-section .quote-citation {
-    margin: auto;
   }
 }
 
